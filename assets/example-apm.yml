@@ -6,7 +6,9 @@ targets: [copilot, claude]
 dependencies:
   apm:
     - microsoft/apm-sample-package#v1.0.0
-    - anthropics/claude-plugins-official/plugins/commit-commands#main
+    - git: anthropics/claude-plugins-official
+      path: plugins/commit-commands
+      ref: main
   mcp:
     - name: io.github.github/github-mcp-server
       transport: http
