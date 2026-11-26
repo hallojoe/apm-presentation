@@ -1,6 +1,6 @@
 # APM — Like npm for agentic things
 
-A KMD-branded, 16-slide web presentation about Microsoft Agent Package Manager. Designed for an 19-minute team session, including discussion. The final slide is an untimed resource appendix.
+A KMD-branded, 17-slide web presentation about Microsoft Agent Package Manager. Designed for an 19-minute team session, including discussion. Slide 16 is an untimed resource appendix; slide 17 closes with Casper Korsgaard’s website and a scannable deck QR.
 
 The opening explains APM through the npm analogy (manifest, install command, lockfile). The six capability slides use concrete house-rules, saved-request, recipe, reviewer-hat, connection and toolkit examples. Slides 3 and 11 make `apm.yml` the narrative anchor: a complete manifest, field-by-field explanation, and a mapping to all six capabilities. Download the example from slide 3 or use `assets/example-apm.yml`. It is an illustrative configuration referencing real packages, not an existing KMD setup.
 
@@ -33,3 +33,7 @@ Push to `main` to run `.github/workflows/pages.yml`. The workflow syntax-checks 
 - [KMD official press assets](https://www.kmd.dk/presse/pressefotos): original white SVG logo, © KMD. The logo is not modified.
 
 Prepared 26 November 2026. Target support and CLI behavior evolve; check current documentation and the installed version.
+
+## Closing slide QR
+
+`assets/deck-qr.svg` encodes `https://hallojoe.github.io/apm-presentation/` directly, with high error correction and a four-module white quiet zone. Dark-green modules and rounded finder corners match the deck. Verified with ZXing at 256, 384 and 512 pixels, upright and rotated. No external QR service or tracking redirect is used.
