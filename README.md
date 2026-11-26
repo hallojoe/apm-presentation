@@ -1,8 +1,8 @@
-# APM — Shared intelligence, engineered
+# APM — Like npm for agentic things
 
 A KMD-branded, 16-slide web presentation about Microsoft Agent Package Manager. Designed for an 19-minute team session, including discussion. The final slide is an untimed resource appendix.
 
-Slides 3 and 11 make `apm.yml` the narrative anchor: a complete manifest, field-by-field explanation, and a mapping to all six capabilities. Download the example from slide 3 or use `assets/example-apm.yml`. It is an illustrative configuration referencing real packages, not an existing KMD setup.
+The opening explains APM through the npm analogy (manifest, install command, lockfile). The six capability slides use concrete house-rules, saved-request, recipe, reviewer-hat, connection and toolkit examples. Slides 3 and 11 make `apm.yml` the narrative anchor: a complete manifest, field-by-field explanation, and a mapping to all six capabilities. Download the example from slide 3 or use `assets/example-apm.yml`. It is an illustrative configuration referencing real packages, not an existing KMD setup.
 
 ## Present
 
