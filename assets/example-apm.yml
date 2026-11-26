@@ -1,0 +1,12 @@
+name: team-ai-setup
+version: 1.0.0
+description: Shared AI development setup
+targets: [copilot, claude]
+
+dependencies:
+  apm:
+    - microsoft/apm-sample-package#v1.0.0
+    - anthropics/claude-plugins-official/plugins/commit-commands#main
+  mcp:
+    - name: io.github.github/github-mcp-server
+      transport: http

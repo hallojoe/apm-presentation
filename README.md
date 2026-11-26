@@ -1,6 +1,8 @@
 # APM — Shared intelligence, engineered
 
-A KMD-branded, 16-slide web presentation about Microsoft Agent Package Manager. Designed for an 18-minute team session, including discussion. The final slide is an untimed resource appendix.
+A KMD-branded, 16-slide web presentation about Microsoft Agent Package Manager. Designed for an 19-minute team session, including discussion. The final slide is an untimed resource appendix.
+
+Slides 3 and 11 make `apm.yml` the narrative anchor: a complete manifest, field-by-field explanation, and a mapping to all six capabilities. Download the example from slide 3 or use `assets/example-apm.yml`. It is an illustrative configuration referencing real packages, not an existing KMD setup.
 
 ## Present
 
@@ -12,7 +14,7 @@ A KMD-branded, 16-slide web presentation about Microsoft Agent Package Manager. 
 - Slide 12 has a four-step, copyable walkthrough. It does not execute commands.
 - Browser printing produces a landscape handout.
 
-The talk totals 18 minutes. Speaker notes include suggested time and elapsed starting time. All examples of team policies, the review agent, and the finding are illustrative, not existing KMD policy or a real audit. APM commands are documentation-checked examples and have not been integration-tested by installing packages.
+The talk totals 19 minutes. Speaker notes include suggested time and elapsed starting time. All examples of team policies, the review agent, and the finding are illustrative, not existing KMD policy or a real audit. APM commands are documentation-checked examples and have not been integration-tested by installing packages.
 
 ## Develop and deploy
 
